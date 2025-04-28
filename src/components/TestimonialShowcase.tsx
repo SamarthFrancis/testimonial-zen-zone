@@ -4,6 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import TestimonialsCarousel from "./TestimonialsCarousel";
 import TestimonialsGrid from "./TestimonialsGrid";
 import DetailedTestimonial from "./DetailedTestimonial";
+import TestimonialCard from "./TestimonialCard";
 import { testimonials, featuredTestimonials } from "@/data/testimonials";
 
 const TestimonialShowcase: React.FC = () => {
