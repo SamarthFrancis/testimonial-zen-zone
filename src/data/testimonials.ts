@@ -1,4 +1,3 @@
-
 export interface Testimonial {
   id: number;
   name: string;
@@ -72,8 +71,7 @@ export const testimonials: Testimonial[] = [
       { label: "Features", rating: 5 },
       { label: "Customer support", rating: 5 }
     ],
-    badges: ["Highly Relevant", "Verified Review", "Incentivized Review"],
-    pros: ["Simple to use, and easy to upload episode."]
+    badges: ["Highly Relevant", "Verified Review", "Incentivized Review"]
   },
   {
     id: 6,
