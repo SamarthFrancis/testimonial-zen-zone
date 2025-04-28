@@ -3,6 +3,14 @@ import React from "react";
 import DetailedTestimonial from "./DetailedTestimonial";
 import TestimonialCard from "./TestimonialCard";
 import { testimonials, featuredTestimonials } from "@/data/testimonials";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 
 const TestimonialShowcase: React.FC = () => {
   return (
@@ -47,6 +55,26 @@ const TestimonialShowcase: React.FC = () => {
               />
             ))}
           </div>
+
+          <Pagination>
+            <PaginationContent>
+              <PaginationItem>
+                <PaginationPrevious href="#" />
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationLink href="#" isActive>1</PaginationLink>
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationLink href="#">2</PaginationLink>
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationLink href="#">3</PaginationLink>
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationNext href="#" />
+              </PaginationItem>
+            </PaginationContent>
+          </Pagination>
         </div>
       </div>
     </div>
